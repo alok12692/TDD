@@ -8,6 +8,7 @@
     <classes>
       <class name="com.DemoBlaze.qa.testcases.HomePageTest">
         <methods>
+          <include name="userNameLogoTest"/>
           <include name="setUp"/>
           <include name="tearDown"/>
           <include name="aboutUsLinkTest"/>

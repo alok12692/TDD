@@ -19,7 +19,7 @@ public class TestBase {
 	public TestBase() {
 		try {
 			prop = new Properties();
-			FileInputStream ip = new FileInputStream("D:\\Eclipse\\DemoBlazeTDD\\src\\main\\java\\com\\DemoBlaze\\qa\\config\\config.properties");
+			FileInputStream ip = new FileInputStream("C:\\Users\\ALOK\\git\\TDD\\DemoBlazeTDD\\src\\main\\java\\com\\DemoBlaze\\qa\\config\\config.properties");
 			prop.load(ip);
 			
 		} catch (FileNotFoundException e) {
